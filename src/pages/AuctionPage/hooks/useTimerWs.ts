@@ -2,7 +2,7 @@ import React from 'react'
 
 import { MessageType, TimerWsDto } from '../../../types/timerDto.type'
 
-const apiUrl = 'ws://45.12.18.61/auction'
+const apiUrl = 'wss://docker.petrtcoi.ru/auction'
 
 
 
