@@ -13,7 +13,7 @@ const InspectPage: React.FC<InspectPageProps> = (_props) => {
   /** INFINITY LOOP! */
   React.useEffect(() => {
     (async () => {
-      const res = await axios.get<Auction[]>('http://45.12.18.61/auction/_inspect_')
+      const res = await axios.get<Auction[]>('https://45.12.18.61/auction/_inspect_')
       setAuctionState(res.data)
     })()
   })
