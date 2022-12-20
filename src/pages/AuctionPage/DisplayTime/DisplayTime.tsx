@@ -1,6 +1,5 @@
 import React from 'react'
 import { Timer } from '../../../types/timer.type'
-import  './displaytime.css'
 
 type DisplayTimeProps = Timer
 
