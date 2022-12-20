@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <HomePage /> } />
         <Route path="/_inspect" element={ <InspectPage /> } />
-        <Route path="/auctions/:auctionId" element={ <AuctionPage /> } />
+        <Route path="/auctions/auctionId" element={ <AuctionPage /> } />
         <Route path="/*" element={ <ErrorPage /> } />
       </Routes>
     </div>
