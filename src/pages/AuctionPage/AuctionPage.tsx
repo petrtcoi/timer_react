@@ -9,9 +9,7 @@ type AuctionPageProps = {}
 const AuctionPage: React.FC<AuctionPageProps> = (_props) => {
   const { auctionId } = useParams()
 
-
   const timerOne = useTimer(auctionId || 'test')
-
 
   const [userName, setUserName] = React.useState<string>('')
   const handleSubmit = (event: any) => {
@@ -20,7 +18,7 @@ const AuctionPage: React.FC<AuctionPageProps> = (_props) => {
   }
   const seconds = useTimerWs(auctionId || 'test', userName)
 
-
+ if (!timerOne || !auctionId) return <>...</>
 
   return (
     <div style={ { padding: "20px" } }>
