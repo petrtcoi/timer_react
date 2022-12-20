@@ -7,7 +7,7 @@ import { TimerDto } from '../../../types/timerDto.type'
 
 const emptyTimer = { loopDuration: 0, secondsPassed: 0 }
 
-const apiUrl = 'https://45.12.18.61/auction'
+const apiUrl = 'https://docker.petrtcoi.ru/auction'
 // const apiUrl = 'http://localhost:3000/auction'
 
 
